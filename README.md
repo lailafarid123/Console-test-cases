@@ -31,6 +31,7 @@ Before running the tests, make sure you have:
 ```bash
 
 npx cypress open
+
 cypress/
  ├── e2e/        # All Cypress test files
  ├── fixtures/   # Test data (JSON files)
