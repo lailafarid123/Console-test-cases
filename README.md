@@ -25,3 +25,16 @@ Before running the tests, make sure you have:
    ```bash
    git clone https://github.com/<your-username>/console-test-cases.git
    cd console-test-cases
+   ## 🔹 Running Tests
+
+### Option 1: Cypress Test Runner (UI)
+```bash
+
+npx cypress open
+cypress/
+ ├── e2e/        # All Cypress test files
+ ├── fixtures/   # Test data (JSON files)
+ ├── support/    # commands.js, e2e.js (custom commands & hooks)
+cypress.config.js # Cypress configuration file
+package.json      # Node dependencies
+
