@@ -1,0 +1,17 @@
+node_modules/
+
+consolecypress/cypress-cache/
+Cypress/
+# Cypress
+        cypress/videos
+        cypress/screenshots
+        consolecypress/cypress-cache
+        **/cypress-cache
+# Cypress cache & binaries
+consolecypress/cypress-cache/
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
